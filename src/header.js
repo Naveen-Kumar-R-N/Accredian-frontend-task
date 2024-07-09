@@ -5,7 +5,6 @@ import Logo from '../src/assets/logo.png.png';
 
 const Header = () => {
     const [value, setValue] = useState();
-    const [age, setAge] = useState('');
     const [anchorEl, setAnchorEl] = useState(null);
     const open = Boolean(anchorEl);
 
@@ -15,10 +14,6 @@ const Header = () => {
   const handleClose = () => {
     setAnchorEl(null);
   };
-
-    const handleChange = (event) => {
-        setAge(event.target.value);
-    }
 
     return (
         <header>
