@@ -1,0 +1,36 @@
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 30px;
+  background-color: white;
+  color: black; 
+  box-shadow: 0 2px 24px rgba(33, 43, 54, .1);
+
+  .header-brand{
+    display: flex;
+    align-items: center;
+    gap: 32px;
+  }
+}
+
+footer{
+  padding: 30px 30px;
+  background-color: #282828;
+  color: white;
+  bottom: 0;
+
+  .logo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid white;
+    padding-bottom: 16px;
+  }
+
+}
+
+input::-webkit-inner-spin-button{
+  -webkit-appearance: none;
+  margin: 0;
+}

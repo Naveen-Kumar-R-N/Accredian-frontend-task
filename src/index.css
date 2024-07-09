@@ -1,0 +1,90 @@
+body {
+  margin: 0;
+  font-family: roboto !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #f9fafb !important;
+  line-height: 20px !important;
+}
+
+body,
+html {
+  font-size: 16px;
+}
+
+/* Scroller Design */
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  border-radius: 6px;
+  background: #e2e4e4;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  border-radius: 6px;
+  background: #b7b8b9;
+}
+
+/* Scroller Design */
+
+
+.navBar ul {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  list-style: none;
+  width: 100%;
+}
+
+.navBar ul a {
+  text-decoration: none;
+  display: block;
+  padding: 15px;
+  margin: 0 5px;
+}
+
+@media (min-width: 768px) and (max-width:1023px) {
+  html {
+    font-size: 13px;
+  }
+}
+
+@media (min-width: 1024px) and (max-width:1200px) {
+  html {
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 1600px) {
+  html {
+    font-size: 17px;
+  }
+}
+
+@media (min-width: 1900px) {
+  html {
+    font-size: 18px;
+  }
+}
+
+/* Responsiveness */
+
+@media screen and (min-width: 1920px) {
+  .container-fluid {
+    max-width: 1520px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .container-fluid {
+    max-width: 1480px;
+  }
+}
+
+/* Responsiveness */
